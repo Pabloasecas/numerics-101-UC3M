@@ -29,3 +29,7 @@ For further reading and deeper understanding of the topics covered, here are som
 1. **Trefethen, L. N.** (2000). *Spectral Methods in MATLAB*. SIAM.     
 2. **Fletcher, R.** (1998). *Computational Techniques for Fluid Dynamics 1*. Springer.     
 3. **Pozrikidis, C.** (1998). *Numerical Computation in Science and Engineering*. Oxford.  
+
+## Feedback and contact information
+
+Please feel free to share any feedback comments and suggestions with me via email: damoreno@ing.uc3m.es
