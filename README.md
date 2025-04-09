@@ -16,7 +16,7 @@ This repository contains a series of Jupyter Notebooks designed to introduce stu
 4. **Initial_value_problems.ipynb**  
    Introduces methods for solving initial value problems (IVPs) for differential equations using Python.
 
-5. **Boundary_value_problems.ipynb** *(in progress)*  
+5. **Boundary_value_problems.ipynb**   
    Explores numerical methods for solving boundary value problems (BVPs).
 
 6. **Differential_eigenvalue_problems.ipynb**  
