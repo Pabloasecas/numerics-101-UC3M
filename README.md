@@ -19,8 +19,17 @@ This repository contains a series of Jupyter Notebooks designed to introduce stu
 5. **Boundary_value_problems.ipynb** *(in progress)*  
    Explores numerical methods for solving boundary value problems (BVPs).
 
-6. **Vector_calculus.ipynb**  
+6. **Differential_eigenvalue_problems.ipynb**  
+   (WIP)
+
+7. **Evolution_problems.ipynb**  
+   (WIP)
+
+8. **Vector_calculus.ipynb**  
    Demonstrates various vector calculus identities and theorems (such as Gauss’ theorem and the fundamental theorem for line integrals) with practical Python examples.
+
+9. **Root_finding.ipynb**  
+   (WIP)
 
 ## Bibliographical References
 
