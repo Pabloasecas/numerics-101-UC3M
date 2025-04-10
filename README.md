@@ -11,16 +11,16 @@ This repository contains a series of Jupyter Notebooks designed to introduce stu
    A guide to basic plotting techniques using Python's Matplotlib, helping you visualize data and mathematical functions.
 
 3. **Numerical_differentiation.ipynb**  
-   Covers methods to approximate derivatives numerically, a key concept in engineering analysis.
+   Covers methods to approximate derivatives numerically, such as finite differences or spectral collocation (Gauss-Lobato-Chebyshev).
 
 4. **Initial_value_problems.ipynb**  
-   Introduces methods for solving initial value problems (IVPs) for differential equations using Python.
+   Introduces methods for solving initial value problems (IVPs) such as Implicit/Explicit Euler/Crank Nicolson, BDF, and Runge-Kutta.
 
 5. **Boundary_value_problems.ipynb**   
    Explores numerical methods for solving boundary value problems (BVPs).
 
 6. **Differential_eigenvalue_problems.ipynb**  
-   (WIP)
+   Illustrates differential eigenvalue problems that naturally arises in hydrodynamic-stability problems.
 
 7. **Evolution_problems.ipynb**  
    (WIP)
