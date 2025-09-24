@@ -13,9 +13,10 @@ interp = PchipInterpolator(x, y)
 y_smooth = interp(x_smooth)
 
 fig, ax = plt.subplots(figsize=(10, 4.5))
+ax.set_xticks(np.arange(0, 361, 20))
 
-plt.xlabel("Rotation angle φ (°)")
-plt.ylabel("Pressure angle")
+plt.xlabel("Rotation angle " r"$\phi$ (°)")
+plt.ylabel("Pressure angle " r"$\alpha_p$" )
 plt.title("Oscillating follower displacement diagram")
 
 plt.plot(x, y, "o", label="Datos originales")
