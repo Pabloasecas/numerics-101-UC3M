@@ -2,8 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import PchipInterpolator
 
-y=[0,1,3,4,3.5,4.5,4.5,5.5,5.5,6,6.5,7,6.5,7,6.5,6,4.5,4.5,4,3.5,4,3,2.5,2,0]
-x=[0,20,30,40,60,80,100,120,140,160,170,180,190,200,220,240,260,280,300,320,330,335,340,350,360]
+y=[2,1,0,1,0,0,-1,-2,-3,-7,-5,-3,-2,0,0,1,0.5,0.5,3]
+x= np.arange(0, 361, 20)
 
 x = np.array(x)
 y = np.array(y)
@@ -16,7 +16,7 @@ fig, ax = plt.subplots(figsize=(10, 4.5))
 ax.set_xticks(np.arange(0, 361, 20))
 
 plt.xlabel("Rotation angle " r"$\phi$ (°)")
-plt.ylabel("Pressure angle " r"$\alpha_p$" )
+plt.ylabel("Vertical displacement " r"$\Delta y$ (mm)" )
 
 plt.plot(x, y, "o", label="Datos originales")
 plt.plot(x_smooth, y_smooth, "-", label="Curva suavizada")
@@ -31,5 +31,5 @@ plt.rcParams.update({
 })
 
 
-fig.savefig("diagrama_desplazamiento_leva_oscilante.svg", bbox_inches="tight")
+fig.savefig("diagrama_desplazamiento_leva_seguidor_plano.svg", bbox_inches="tight")
 plt.show()
