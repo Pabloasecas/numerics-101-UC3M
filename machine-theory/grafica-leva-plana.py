@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import PchipInterpolator
 
-y=[2,1,0,1,0,0,-1,-2,-3,-7,-5,-3,-2,0,0,1,0.5,0.5,3]
+y=[2,1,0,1,0,0,-1,-2,-3,-7,-5,-3,-2,0,0,1,0.5,0.5,2]
 x= np.arange(0, 361, 20)
 
 x = np.array(x)
